@@ -8,4 +8,124 @@ body {
   font-family: "web-font", sans-serif;
 }
 
+section {
+  margin-bottom: 8px;
+}
+section .container {
+  display: flex;
+}
+
+small {
+  color: #fff;
+  display: block;
+}
+
+span {
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+main .section-1 .container {
+  height: 600px;
+  gap: 8px;
+}
+main .section-1 .container .content-left {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  background-image: url(../img/banner-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+main .section-1 .container .content-left .content {
+  width: 50%;
+  height: 400px;
+  margin: 150px 0 0 150px;
+}
+main .section-1 .container .content-left .content small {
+  color: #fff;
+  display: block;
+  padding-bottom: 10px;
+}
+main .section-1 .container .content-left .content span {
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #f4bc51;
+}
+main .section-1 .container .content-left .content h2 {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 60px;
+  font-weight: lighter;
+}
+main .section-1 .container .content-left .content button {
+  background-color: transparent;
+  margin-top: 30px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  width: 140px;
+  height: 40px;
+  border-radius: 30px;
+}
+main .section-1 .container .content-right {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  background-color: #f4bc51;
+  padding: 90px 30px;
+}
+main .section-1 .container .content-right .logo {
+  text-align: center;
+  padding-bottom: 8px;
+}
+main .section-1 .container .content-right .logo img {
+  width: 70%;
+}
+main .section-1 .container .content-right .content {
+  text-align: center;
+}
+main .section-1 .container .content-right .content h2 {
+  font-size: 40px;
+}
+main .section-1 .container .content-right .content small {
+  font-size: 12px;
+  font-weight: 600;
+}
+main .section-1 .container .content-right .content span {
+  width: 400px;
+  height: 5px;
+  margin: 35px 0;
+  background-color: #fff;
+}
+main .section-1 .container .content-right .content p {
+  font-size: 12px;
+  font-style: italic;
+}
+main .section-1 .container .content-right .content .avatar {
+  margin-top: 50px;
+}
+main .section-1 .container .content-right .content .avatar ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+main .section-1 .container .content-right .content .avatar ul li {
+  width: 30px;
+  height: 30px;
+  font-size: 12px;
+  background-color: #fff;
+  color: #f4bc51;
+  border-radius: 50%;
+  text-align: center;
+  padding: 8px 0;
+}
+
 /*# sourceMappingURL=style.css.map */

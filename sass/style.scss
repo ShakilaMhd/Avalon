@@ -316,7 +316,6 @@ main {
                 background-color: #fff;
                 font-size: 12px;
                 font-weight: 600;
-                
               }
             }
           }
@@ -330,20 +329,17 @@ main {
   .section-4 {
     .container {
       height: 600px;
-      .content-left {
-
-      }
       .content-right {
         background-image: url(../img/testimonial-bg.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         margin-left: 8px;
-       text-align: center;
+        text-align: center;
 
-       .profile-pic {
-         padding: 130px 0 30px 0;
-       }
+        .profile-pic {
+          padding: 130px 0 30px 0;
+        }
 
         .content {
           width: 70%;
@@ -356,12 +352,145 @@ main {
           h4 {
             padding: 10px 0 20px 0;
           }
-          p{
+          p {
             font-size: 14px;
             color: #767676;
             letter-spacing: 1px;
             font-style: italic;
           }
+        }
+      }
+    }
+  }
+  .section-5 {
+    .container {
+      width: 100%;
+      height: 350px;
+      background-image: url(../img/services-bg.png);
+      .cont {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        .logo {
+          border: 1px solid #fff;
+          border-radius: 50%;
+          width: 130px;
+          height: 130px;
+
+          img {
+            margin: 35px 10px;
+          }
+        }
+        h3 {
+          padding-top: 30px;
+          color: #fff;
+        }
+      }
+
+      .cont-1 {
+        background-color: #e4b251;
+      }
+      .cont-2 {
+        background-color: #e3974c;
+
+        .logo {
+          img {
+            margin: 20px 10px;
+          }
+        }
+      }
+      .cont-3 {
+        background-color: #af4e5d;
+      }
+      .cont-4 {
+        background-color: #d96658;
+      }
+    }
+  }
+  .section-6 {
+    margin-bottom: 0;
+    .container {
+      width: 100%;
+      gap: 8px;
+      .content-left {
+        width: 70%;
+        height: 500px;
+        background-image: url(../img/contact-bg.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        .header {
+          width: 80%;
+          height: 100px;
+          margin: 60px auto 20px auto;
+          ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 40px 0;
+            li {
+              width: 30%;
+              height: 45px;
+              
+              background-color: rgba(111, 110, 110, 0.37);
+              border-bottom: 3px solid #fff;
+              color: rgb(170, 163, 163);
+              padding: 10px ;
+              font-size: 14px;
+            }
+          }
+        }
+        .msg {
+          width: 80%;
+          height: 180px;
+          margin: 0 auto;
+          background-color: rgba(111, 110, 110, 0.37);
+          border-bottom: 3px solid #fff;
+          color: rgb(170, 163, 163);
+          padding: 15px;
+          font-size: 14px;
+        }
+
+        button {
+          margin: 30px 0 0 100px;
+          border-radius: 30px;
+          padding: 15px 20px;
+          font-weight: 600;
+          color: #fff;
+          background-color: #e3974c;
+          border: none;
+        }
+      }
+      .content-right {
+        width: 30%;
+        background-color: #e3974c;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: #fff;
+        
+        .logo {
+          border: 1px solid #fff;
+          border-radius: 50%;
+          width: 130px;
+          height: 130px;
+          margin-bottom: 20px;
+
+          img {
+            margin: 25px 35px;
+          }
+        }
+
+        h3 {
+          text-transform: uppercase;
+          font-size: 16px ;
         }
       }
     }

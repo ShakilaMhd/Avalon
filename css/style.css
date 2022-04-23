@@ -306,11 +306,20 @@ main .section-3 .container .table .n-border {
 main .section-4 .container {
   height: 600px;
 }
+main .section-4 .container .content-left {
+  width: 40%;
+}
+main .section-4 .container .content-left img {
+  width: 100%;
+}
 main .section-4 .container .content-right {
+  width: 60%;
   background-image: url(../img/testimonial-bg.png);
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
+  height: 600px;
+  min-height: 600px;
   margin-left: 8px;
   text-align: center;
 }
@@ -546,6 +555,23 @@ main .section-6 .container .content-right h3 {
   }
   body main .section-3 .container .table .line .cont-1 {
     width: auto;
+  }
+  body main .section-4 .container {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  body main .section-4 .container .content-left {
+    width: 100%;
+    height: auto;
+  }
+  body main .section-4 .container .content-left img {
+    width: 100%;
+  }
+  body main .section-4 .container .content-right {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
   }
   body main .section-5 .container {
     width: 100%;

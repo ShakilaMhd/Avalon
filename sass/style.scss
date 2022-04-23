@@ -4,6 +4,7 @@
 main {
   .section-1 {
     .container {
+      width: 100%;
       height: 600px;
       gap: 8px;
 
@@ -11,7 +12,6 @@ main {
         width: 70%;
         display: flex;
         align-items: center;
-        // justify-content: center;
         background-image: url(../img/banner-bg.png);
         background-size: cover;
         background-repeat: no-repeat;
@@ -110,6 +110,95 @@ main {
                 padding: 8px 0;
               }
             }
+          }
+        }
+      }
+    }
+  }
+
+  .section-2 {
+    .container {
+      width: 100%;
+      height: 500px;
+
+      .content-left {
+        width: 30%;
+        background-image: url(../img/best-offer-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: center;
+
+        .content {
+          .pic {
+            border: 1px solid #fff;
+            border-radius: 50%;
+            width: 130px;
+            height: 130px;
+            text-align: center;
+            margin: 150px 150px 40px 150px;
+
+            img {
+              margin: 30% auto;
+            }
+          }
+          p {
+            color: #fff;
+            font-weight: 600;
+          }
+        }
+      }
+
+      .content-right {
+        width: 70%;
+        background-color: #eee;
+
+        .box {
+          display: flex;
+          margin: 70px 40px;
+
+          .content {
+            width: 50%;
+
+            h2 {
+              font-size: 30px;
+              font-weight: lighter;
+            }
+            span {
+              display: inline;
+              color: #b94e5e;
+              font-weight: bold;
+            }
+            p {
+              padding: 20px 0;
+              font-size: 14px;
+              line-height: 1.5;
+              color: #616161;
+            }
+
+            ul {
+              li {
+                font-size: 12px;
+                font-style: italic;
+                color: #858382;
+                padding: 5px 0;
+              }
+            }
+
+            button {
+              margin-top: 40px;
+              padding: 12px 16px;
+              border-radius: 30px;
+              background-color: #b94e5e;
+              color: #fff;
+              font-size: 12px;
+              font-weight: 600;
+              border: none;
+            }
+          }
+
+          .pic {
+            width: 50%;
           }
         }
       }

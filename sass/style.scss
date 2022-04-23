@@ -327,4 +327,43 @@ main {
       }
     }
   }
+  .section-4 {
+    .container {
+      height: 600px;
+      .content-left {
+
+      }
+      .content-right {
+        background-image: url(../img/testimonial-bg.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-left: 8px;
+       text-align: center;
+
+       .profile-pic {
+         padding: 130px 0 30px 0;
+       }
+
+        .content {
+          width: 70%;
+          margin: 0 auto;
+
+          small {
+            color: #e96b6b;
+            font-style: italic;
+          }
+          h4 {
+            padding: 10px 0 20px 0;
+          }
+          p{
+            font-size: 14px;
+            color: #767676;
+            letter-spacing: 1px;
+            font-style: italic;
+          }
+        }
+      }
+    }
+  }
 }

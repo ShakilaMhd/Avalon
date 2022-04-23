@@ -303,5 +303,36 @@ main .section-3 .container .table .line .cont .cont-4 button {
 main .section-3 .container .table .n-border {
   border-bottom: none;
 }
+main .section-4 .container {
+  height: 600px;
+}
+main .section-4 .container .content-right {
+  background-image: url(../img/testimonial-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 8px;
+  text-align: center;
+}
+main .section-4 .container .content-right .profile-pic {
+  padding: 130px 0 30px 0;
+}
+main .section-4 .container .content-right .content {
+  width: 70%;
+  margin: 0 auto;
+}
+main .section-4 .container .content-right .content small {
+  color: #e96b6b;
+  font-style: italic;
+}
+main .section-4 .container .content-right .content h4 {
+  padding: 10px 0 20px 0;
+}
+main .section-4 .container .content-right .content p {
+  font-size: 14px;
+  color: #767676;
+  letter-spacing: 1px;
+  font-style: italic;
+}
 
 /*# sourceMappingURL=style.css.map */

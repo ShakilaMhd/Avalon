@@ -6,6 +6,7 @@
 
 body {
   font-family: "web-font", sans-serif;
+  overflow: visible;
 }
 
 section {
@@ -105,7 +106,6 @@ main .section-1 .container .content-right .content small {
   font-weight: 600;
 }
 main .section-1 .container .content-right .content span {
-  width: 400px;
   height: 5px;
   margin: 35px 0;
   background-color: #fff;
@@ -338,6 +338,7 @@ main .section-5 .container {
   width: 100%;
   height: 350px;
   background-image: url(../img/services-bg.png);
+  display: flex;
 }
 main .section-5 .container .cont {
   width: 25%;
@@ -452,6 +453,135 @@ main .section-6 .container .content-right .logo img {
 main .section-6 .container .content-right h3 {
   text-transform: uppercase;
   font-size: 16px;
+}
+
+@media (max-width: 401px) {
+  body main {
+    margin: 8px;
+  }
+  body main .section-1 .container {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  body main .section-1 .container .content-left {
+    width: 100%;
+    height: 700px;
+  }
+  body main .section-1 .container .content-left .content {
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    margin: 100px 50px 0 50px;
+  }
+  body main .section-1 .container .content-left .content span {
+    margin-left: 115px;
+  }
+  body main .section-1 .container .content-right {
+    width: 100%;
+  }
+  body main .section-2 .container {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  body main .section-2 .container .content-left {
+    width: 100%;
+    height: 550px;
+  }
+  body main .section-2 .container .content-left .content {
+    width: 100%;
+    text-align: center;
+    padding-top: 170px;
+  }
+  body main .section-2 .container .content-left .content .pic {
+    margin: 0 auto 30px auto;
+  }
+  body main .section-2 .container .content-right {
+    width: 100%;
+  }
+  body main .section-2 .container .content-right .box {
+    text-align: center;
+    flex-direction: column;
+  }
+  body main .section-2 .container .content-right .box .content {
+    width: 100%;
+    margin: 0 auto;
+  }
+  body main .section-2 .container .content-right .box .content button {
+    margin-bottom: 30px;
+  }
+  body main .section-3 .container {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  body main .section-3 .container .header {
+    height: auto;
+  }
+  body main .section-3 .container .header ul {
+    flex-direction: column;
+    gap: 5px;
+  }
+  body main .section-3 .container .header ul li {
+    width: 200px;
+  }
+  body main .section-3 .container .table {
+    width: 90%;
+    margin-bottom: 70px;
+  }
+  body main .section-3 .container .table .line {
+    height: auto;
+    flex-direction: column;
+  }
+  body main .section-3 .container .table .line .cont {
+    gap: 35px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+  }
+  body main .section-3 .container .table .line .cont .cont-3 {
+    padding: 0;
+  }
+  body main .section-3 .container .table .line .cont-1 {
+    width: auto;
+  }
+  body main .section-5 .container {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  body main .section-5 .container .cont {
+    width: 100%;
+    height: 350px;
+  }
+  body main .section-6 .container {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  body main .section-6 .container .content-left {
+    width: 100%;
+    height: auto;
+  }
+  body main .section-6 .container .content-left .header ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+  body main .section-6 .container .content-left .header ul li {
+    width: 100%;
+  }
+  body main .section-6 .container .content-left .msg {
+    margin-top: 150px;
+  }
+  body main .section-6 .container .content-left button {
+    margin: 25px 0 25px 35px;
+  }
+  body main .section-6 .container .content-right {
+    width: 100%;
+    height: 500px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
